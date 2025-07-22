@@ -8,9 +8,9 @@ airflow db init
 
 # Create admin user
 airflow users create \
-    --username admin \
-    --firstname payal \
-    --lastname navsupe \
-    --role Admin \
-    --email payalsnavsupe@gmail.com \
-    --password stream@123
+    --username yourusername \
+    --firstname yourfirstname \
+    --lastname lastname \
+    --role yourrole \
+    --email youregmail@gmail.com \
+    --password yourpassword
