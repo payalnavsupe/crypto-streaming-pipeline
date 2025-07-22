@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+
+# Airflow
+airflow/
+airflow_env/
+airflow.db
+airflow.cfg
+logs/
+
+# DBT
+crypto_dbt/dbt_packages/
+crypto_dbt/target/
+crypto_dbt/logs/
+
+# System/Misc
+.DS_Store
+.env
+*.pyc
+*.log
+*.bak
+*.swp
+*.cfg
+*.db
+
+# Sensitive YAML files
+*.yml
